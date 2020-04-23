@@ -55,9 +55,7 @@ Route:: group([ 'as'=>'author.', 'prefix'=>'author', 'namespace' => 'Author',
 	Route::get('dashboard', 'DashboardController@index')->name('dashboard');
 });
 
-<<<<<<< HEAD
 
-=======
 Route::get('/change-password','Auth\ChangePasswordController@index')->name('password.change');
 Route::post('/change-password','Auth\ChangePasswordController@store')->name('change.password');
 
