@@ -1,5 +1,7 @@
 @extends('layouts.app')
-
+@section('title-block')
+    MAIN PAGE
+@endsection
 @section('content')
     <h1>HOME</h1>
 <!-- <div class="container">
