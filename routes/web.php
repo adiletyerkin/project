@@ -27,6 +27,8 @@ Route::get('/contact', function () {
 });
 
 
+
+
 Route::get('/listofusers', 'RegistrationController@allData' )->name('listofusers');
 
 
@@ -36,6 +38,7 @@ Route::post('/update/{id}', 'RegistrationController@update' )->name('update');
 
 Route::get('/delete/{id}','RegistrationController@delete' )->name('delete');
 
+<<<<<<< HEAD
 
 Route:: group(['as'=>'admin.', 'prefix'=>'admin', 'namespace' => 'Admin',
 'middleware' => ['auth', 'admin']
@@ -52,3 +55,7 @@ Route:: group([ 'as'=>'author.', 'prefix'=>'author', 'namespace' => 'Author',
 
 	Route::get('dashboard', 'DashboardController@index')->name('dashboard');
 });
+=======
+Route::get('/change-password','Auth\ChangePasswordController@index')->name('password.change');
+Route::post('/change-password','Auth\ChangePasswordController@store')->name('change.password');
+>>>>>>> d8a80d44d99e850a7a2f36c69ec8cd4f03b14e60

@@ -1,4 +1,4 @@
-<?php
+change<?php
 
 namespace App\Http\Controllers\Auth;
 
