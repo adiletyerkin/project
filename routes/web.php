@@ -58,7 +58,6 @@ Route:: group([ 'as'=>'author.', 'prefix'=>'author', 'namespace' => 'Author',
 <<<<<<< HEAD
 
 =======
->>>>>>> f08ae49b685de143b0d088231886814836a42506
 Route::get('/change-password','Auth\ChangePasswordController@index')->name('password.change');
 Route::post('/change-password','Auth\ChangePasswordController@store')->name('change.password');
 
