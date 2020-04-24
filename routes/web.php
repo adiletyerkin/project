@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Middleware\AdminMiddleware;
+use App\Http\Middleware\AuthorMiddleware;
 
 
 
@@ -28,15 +30,14 @@ Route::get('/contact', function () {
 
 
 
+Route::get('/listofusers', 'HomeController@allData' )->name('listofusers');
 
-Route::get('/listofusers', 'RegistrationController@allData' )->name('listofusers');
 
+Route::get('/edituser/{id}', 'HomeController@edituser' )->name('edituser');
 
-Route::get('/edituser/{id}', 'RegistrationController@edituser' )->name('edituser');
+Route::post('/update/{id}', 'HomeController@update' )->name('update');
 
-Route::post('/update/{id}', 'RegistrationController@update' )->name('update');
-
-Route::get('/delete/{id}','RegistrationController@delete' )->name('delete');
+Route::get('/delete/{id}','HomeController@delete' )->name('delete');
 
 
 Route:: group(['as'=>'admin.', 'prefix'=>'admin', 'namespace' => 'Admin',
