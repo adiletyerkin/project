@@ -6,7 +6,10 @@
     <a class="p-2 text-dark" href="/about">О компании</a>
     <a class="p-2 text-dark" href="/delivery">Доставка</a>
     <a class="p-2 text-dark" href="/contact">Контакты</a>
+
      <a class="p-2 text-dark" href="/listofusers">Список</a>
+  
 </nav>
   </nav>
 </div>
+

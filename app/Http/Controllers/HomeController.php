@@ -48,7 +48,7 @@ class HomeController extends Controller
 
     }
 
-    public function update(User  $req, $id){
+    public function update(Request $req, $id){
 
            $registration =  User::find($id);
 
@@ -56,12 +56,12 @@ class HomeController extends Controller
             // $registration -> surname = $req->input('surname');
             $registration -> email = $req->input('email');
             // $registration -> phone = $req->input('phone');
-            $registration -> password = $req->input('password');
+            // $registration -> password = $req->input('password');
 
 
             $registration -> save();
 
-           return redirect()-> route('/')->with('success', 'ОБНОВЛЕНИЕ прошло успешно ');
+           return redirect()-> route('home')->with('success', 'ОБНОВЛЕНИЕ прошло успешно ');
      
     }
 

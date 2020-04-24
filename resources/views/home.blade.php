@@ -2,6 +2,7 @@
 @section('title-block')
     MAIN PAGE
 @endsection
+
 @section('content')
     <h1></h1>
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
