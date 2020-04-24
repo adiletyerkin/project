@@ -61,7 +61,7 @@ class HomeController extends Controller
 
             $registration -> save();
 
-           return redirect()-> route('home')->with('success', 'ОБНОВЛЕНИЕ прошло успешно ');
+           return redirect()-> route('/')->with('success', 'ОБНОВЛЕНИЕ прошло успешно ');
      
     }
 
