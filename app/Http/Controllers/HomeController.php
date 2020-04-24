@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Role;
+use App\User;
 
 class HomeController extends Controller
 {
@@ -32,29 +33,29 @@ class HomeController extends Controller
 
 
 
-    
+
 
  public function allData(){
-         $registrationData = Role:: paginate(1);
+         $registrationData = User:: paginate(3);
         return view('listofusers', compact('registrationData'));
 
 
     }
 
     public function edituser($id){
-        $registration =  Role::find($id);
+        $registration =  User::find($id);
         return view('edituser', compact('registration'));
 
     }
 
-    public function update(Role  $req, $id){
+    public function update(User  $req, $id){
 
-           $registration =  Role::find($id);
+           $registration =  User::find($id);
 
             $registration -> name = $req->input('name');
-            $registration -> surname = $req->input('surname');
+            // $registration -> surname = $req->input('surname');
             $registration -> email = $req->input('email');
-            $registration -> phone = $req->input('phone');
+            // $registration -> phone = $req->input('phone');
             $registration -> password = $req->input('password');
 
 
@@ -66,7 +67,7 @@ class HomeController extends Controller
 
 
     public function delete($id){
-        Role::find($id)->delete();
+        User::find($id)->delete();
         return redirect( route( 'home')) -> with('success', 'User delete successfully!');
 
     }

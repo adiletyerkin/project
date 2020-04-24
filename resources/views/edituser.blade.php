@@ -21,10 +21,10 @@
 			<label for="email">Адрес e-mail: </label>
 			<input type="text" name="email" placeholder="введите email" id="email" class="form-control"  value="{{$registration -> email}}">
 		</div>
-		<div class="form-group">
+		<!-- <div class="form-group">
 			<label for="phone">Телефон: </label>
 			<input type="text" name="phone" placeholder="введите телефон" id="phone" class="form-control"  value="{{$registration -> phone}}">
-		</div>
+		</div> -->
 		<div class="form-group">
 			<label for="password">Пароль: </label>
 			<input type="password" name="password" placeholder="пароль" id="password" class="form-control" >
