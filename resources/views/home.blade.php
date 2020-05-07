@@ -4,7 +4,121 @@
 @endsection
 
 @section('content')
-    <h1></h1>
+<div class="container">
+    <div class="row" style="justify-content: space-between;">
+    <table>
+              <tr><td style="text-align: center;">
+                <canvas id="canvas_tt5eb45c77d2dfd" width="125" height="125">  
+                </canvas>
+              </td></tr>
+              <tr><td style="text-align: center; font-weight: bold"><a href="//24timezones.com/Almaty/time" style="text-decoration: none" class="clock24" id="tz24-1588878455-c1382-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVjNzdkMmRmZCJ9" title="what time Almaty" target="_blank" rel="nofollow">Kazakhstan</a></td></tr>
+          </table>
+<script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
+
+
+
+    <table>
+              <tr><td style="text-align: center;"><canvas id="canvas_tt5eb45ce8c81d9" width="125" height="125"></canvas></td></tr>
+              <tr><td style="text-align: center; font-weight: bold"><a href="//24timezones.com/current_time/switzerland_bern_clock.php" style="text-decoration: none" class="clock24" id="tz24-1588878568-cc15702-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVjZThjODFkOSJ9" title="Bern Time" target="_blank" rel="nofollow">Switzerland </a></td></tr>
+          </table>
+<script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
+
+          <table>
+              <tr><td style="text-align: center;"><canvas id="canvas_tt5eb45d21d6b69" width="125" height="125"></canvas></td></tr>
+              <tr><td style="text-align: center; font-weight: bold"><a href="//24timezones.com/current_time/japan_tokyo_clock.php" style="text-decoration: none" class="clock24" id="tz24-1588878625-cc13821-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVkMjFkNmI2OSJ9" title="timezone - Tokyo" target="_blank" rel="nofollow">Japan</a></td></tr>
+          </table>
+<script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
+
+
+   <table>
+              <tr><td style="text-align: center;"><canvas id="canvas_tt5eb45d501a460" width="125" height="125"></canvas></td></tr>
+              <tr><td style="text-align: center; font-weight: bold"><a href="//24timezones.com/current_time/italy_rome_clock.php" style="text-decoration: none" class="clock24" id="tz24-1588878672-cc13441-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVkNTAxYTQ2MCJ9" title="Rome time zone" target="_blank" rel="nofollow">Italy</a></td></tr>
+          </table>
+<script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
+
+
+     <table>
+              <tr><td style="text-align: center;"><canvas id="canvas_tt5eb45d6b8423c" width="125" height="125"></canvas></td></tr>
+              <tr><td style="text-align: center; font-weight: bold"><a href="//24timezones.com/current_time/germany_berlin_clock.php" style="text-decoration: none" class="clock24" id="tz24-1588878699-cc12515-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVkNmI4NDIzYyJ9" title="local time in Berlin" target="_blank" rel="nofollow">Germany</a></td></tr>
+          </table>
+<script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
+</div>
+</div>
+
+<br>
+
+<!-- <canvas id="basic" height="200"></canvas> -->
+
+<!-- <script>
+$(function () {
+  $("#basic").htAnalogClock();
+});
+$(function () {
+  $("#basic").htAnalogClock({
+    // options here
+  }, {
+    timezone: "America/Los_Angeles"
+  });
+});
+$(function () {
+  $("#basic").htAnalogClock({
+    hasShadow: true,
+    shadowColor: "#000",
+    shadowBlur: 10,
+
+    drawSecondHand: true,
+    drawMajorTicks: true,
+    drawMinorTicks: true,
+    drawBorder: true,
+    drawFill: true,
+    drawTexts: true,
+    drawPin: true,
+
+    majorTicksColor: "#f88",
+    minorTicksColor: "#fa0",
+
+    majorTicksLength: 10.0,
+    minorTicksLength: 7.0,
+    majorTicksWidth: 0.005,
+    minorTicksWidth: 0.0025,
+
+    fillColor: "#333",
+    pinColor: "#f88",
+    pinRadius: 5.0,
+
+    borderColor: "#000",
+    borderWidth: 2.0,
+
+    secondHandColor: "#f00",
+    minuteHandColor: "#fff",
+    hourHandColor: "#fff",
+
+    fontColor: "#fff",
+    fontName: "Tahoma",
+    fontSize: 10.0,
+
+    secondHandLength: 90.0,
+    minuteHandLength: 70.0,
+    hourHandLength: 50.0,
+
+    secondHandWidth: 1.0,
+    minuteHandWidth: 2.0,
+    hourHandWidth: 3.0
+  });
+});
+
+$(function () {
+  $("#gray_fantastic").htAnalogClock(htAnalogClock.preset_gray_fantastic);
+  $("#black_bolded").htAnalogClock(htAnalogClock.preset_black_bolded);
+  $("#nice_bolded").htAnalogClock(htAnalogClock.preset_nice_bolded);
+  $("#ocean_blue").htAnalogClock(htAnalogClock.preset_ocean_blue);
+  $("#white_nice").htAnalogClock(htAnalogClock.preset_white_nice);
+  $("#modern_dark").htAnalogClock(htAnalogClock.preset_modern_dark);
+});
+
+
+</script> -->
+
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
