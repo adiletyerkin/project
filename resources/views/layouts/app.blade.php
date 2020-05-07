@@ -95,7 +95,7 @@
     @endif
 
         <main class="py-4">
-            <div class="container mt-5">
+            <div class="container mt-5 ">
                 @yield('content')
 
             </div>

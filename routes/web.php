@@ -68,3 +68,21 @@ Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()
         Route::match(['get', 'post'], 'listofusers', 'HomeController@allData');
         
     });
+
+
+Route::get('/Kazakhstan', function () {
+    return view('Country.Kazakhstan');
+});
+
+Route::get('/Switzerland', function () {
+    return view('Country.Switzerland');
+});
+Route::get('/Japan', function () {
+    return view('Country.Japan');
+});
+Route::get('/Italy', function () {
+    return view('Country.Italy');
+});
+Route::get('/Germany', function () {
+    return view('Country.Germany');
+});
