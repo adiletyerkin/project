@@ -60,6 +60,8 @@ Route:: group([ 'as'=>'author.', 'prefix'=>'author', 'namespace' => 'Author',
 Route::get('/change-password','Auth\ChangePasswordController@index')->name('password.change');
 Route::post('/change-password','Auth\ChangePasswordController@store')->name('change.password');
 
+
+
 Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()
     {
         Route::match(['get', 'post'], 'listofusers', 'HomeController@allData');

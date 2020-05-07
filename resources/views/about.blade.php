@@ -22,7 +22,7 @@ ABOUT PAGE
 				<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
 					<span itemprop="name">О компании</span>
 				</span>
-			</div>        
+			</div>
 		</div>
     </div>
 </div>
@@ -74,4 +74,3 @@ ABOUT PAGE
 </section></main>
 
 @endsection
-	
