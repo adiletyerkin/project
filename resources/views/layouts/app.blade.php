@@ -16,7 +16,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="/path/to/cdn/jquery.slim.min.js"></script>
     <script src="/path/to/jquery.ht-analog-clock.min.js"></script>
+     <script type="text/javascript">
+        import Darkmode from 'darkmode-js';
 
+new Darkmode().showWidget();
+    </script>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -86,7 +90,7 @@
                 </div>
             </div>
         </nav>
-
+   
     @include('layouts.header')
 
 
@@ -102,7 +106,10 @@
         </main>
     </div>
 
-
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+<script>
+  new Darkmode().showWidget();
+</script>
  <div class="container ">
     @include('layouts.footer')
 </div>
