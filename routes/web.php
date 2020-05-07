@@ -30,7 +30,7 @@ Route::get('/contact', function () {
 
 
 
-Route::get('/listofusers', 'HomeController@allData' )->name('listofusers');
+// Route::get('/listofusers', 'HomeController@allData' )->name('listofusers');
 
 
 Route::get('/edituser/{id}', 'HomeController@edituser' )->name('edituser');
@@ -45,6 +45,7 @@ Route:: group(['as'=>'admin.', 'prefix'=>'admin', 'namespace' => 'Admin',
 ], function(){
 
 	Route::get('dashboard', 'DashboardController@index')->name('dashboard');
+
 });
 
 

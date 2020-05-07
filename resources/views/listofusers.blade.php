@@ -4,6 +4,10 @@
 	List of users
 @endsection
 
+    @if(Request :: is('/'))
+        @include('layouts.hero')
+    @endif
+
 @section('content')
 
 	<h1>List of users</h1>
