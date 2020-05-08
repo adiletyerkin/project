@@ -57,14 +57,7 @@ new Darkmode().showWidget();
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
 
-                        <li class="nav-item">
-                                <a class="nav-link" href="{{ route('cart.index') }}">Cart
-                                    <div class="badge badge-danger">
-                                        {{Cart::session(auth()->id())->getContent()->count()}}
-                                    </div>
-
-                                </a>
-                            </li>
+                        
 
                         <!-- Authentication Links -->
                         @guest
@@ -77,6 +70,14 @@ new Darkmode().showWidget();
                                 </li> 
                             @endif
                         @else
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('cart.index') }}">Cart
+                                    <div class="badge badge-danger">
+                                        {{Cart::session(auth()->id())->getContent()->count()}}
+                                    </div>
+
+                                </a>
+                            </li>
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
