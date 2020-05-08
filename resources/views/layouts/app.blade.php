@@ -34,6 +34,7 @@ new Darkmode().showWidget();
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js">
 
 
 </head>
@@ -57,8 +58,6 @@ new Darkmode().showWidget();
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
 
-                        
-
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
@@ -72,7 +71,7 @@ new Darkmode().showWidget();
                         @else
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('cart.index') }}">
-                                    <i class="fas fa-cart-arrow-down"></i>
+                                    <i class="fas fa-cart-plus"></i>
                                     Cart
                                     <div class="badge badge-danger">
                                         {{Cart::session(auth()->id())->getContent()->count()}}
