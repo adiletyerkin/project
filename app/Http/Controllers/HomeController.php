@@ -41,9 +41,7 @@ class HomeController extends Controller
  public function allData(){
          $registrationData = User:: paginate(3);
         return view('listofusers', compact('registrationData'));
-
-
-    }
+}
 
     public function edituser($id){
         $registration =  User::find($id);
