@@ -40,5 +40,6 @@
 	<h3>
 		Общая сумма: {{\Cart::session(auth()->id())->getTotal()}} тг
 	</h3>
+	<a href="" class="btn btn-primary" role="button">Купить</a>
 @endsection
 	

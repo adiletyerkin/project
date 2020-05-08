@@ -90,16 +90,18 @@
 <div class="row">
   @foreach($allProducts as $product)
   <div class="col-3">
-  <div class="card"style="height: 480px; margin-bottom: 10px;">
+  <div class="card"style="height: 520px; margin-bottom: 10px;">
 
   <img src='https://time4u.kz/upload/resize_cache/iblock/f95/265_265_1/f957c265f9e1dcac8ec4938706d72909.jpg' class='card-img-top'  >
     <div class="card-body">
       <h4 class="card-title">{{$product->name}}</h4>
       <p class="card-text">{{$product->discription}}</p> 
-      <h5>{{$product->price}}</h5>
+      <h5>{{$product->price}} тг</h5>
     </div>
     <div class="card-body">
+      <div class="text-center">
       <a href="{{route('cart.add', $product->id)}}" class="card-link">Add to cart</a>   
+      </div>
     </div>
   </div>
   </div>

@@ -27,7 +27,7 @@ new Darkmode().showWidget();
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -71,7 +71,9 @@ new Darkmode().showWidget();
                             @endif
                         @else
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('cart.index') }}">Cart
+                                <a class="nav-link" href="{{ route('cart.index') }}">
+                                    <i class="fas fa-cart-arrow-down"></i>
+                                    Cart
                                     <div class="badge badge-danger">
                                         {{Cart::session(auth()->id())->getContent()->count()}}
                                     </div>
