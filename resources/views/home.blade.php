@@ -11,33 +11,33 @@
                 <canvas id="canvas_tt5eb45c77d2dfd" width="125" height="125" >  
                 </canvas>
               </td></tr>
-              <tr><td style="text-align: center; font-weight: bold"><a href="/Kazakhstan" style="text-decoration: none" class="clock24" id="tz24-1588878455-c1382-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVjNzdkMmRmZCJ9" title="what time Almaty" target="_blank" rel="nofollow">Kazakhstan</a></td></tr>
+              <tr><td style="text-align: center; font-weight: bold"><a href="/Kazakhstan" style="text-decoration: none" class="clock24" id="tz24-1588878455-c1382-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVjNzdkMmRmZCJ9" title="what time Almaty" target="_blank" rel="nofollow">Казахстан</a></td></tr>
           </table>
 <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
 
     <table>
               <tr><td style="text-align: center;"><canvas id="canvas_tt5eb45ce8c81d9" width="125" height="125"></canvas></td></tr>
-              <tr><td style="text-align: center; font-weight: bold"><a href="/Switzerland" style="text-decoration: none" class="clock24" id="tz24-1588878568-cc15702-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVjZThjODFkOSJ9" title="Bern Time" target="_blank" rel="nofollow">Switzerland </a></td></tr>
+              <tr><td style="text-align: center; font-weight: bold"><a href="/Switzerland" style="text-decoration: none" class="clock24" id="tz24-1588878568-cc15702-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVjZThjODFkOSJ9" title="Bern Time" target="_blank" rel="nofollow">Швейцария </a></td></tr>
           </table>
 <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
 
           <table>
               <tr><td style="text-align: center;"><canvas id="canvas_tt5eb45d21d6b69" width="125" height="125"></canvas></td></tr>
-              <tr><td style="text-align: center; font-weight: bold"><a href="/Japan" style="text-decoration: none" class="clock24" id="tz24-1588878625-cc13821-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVkMjFkNmI2OSJ9" title="timezone - Tokyo" target="_blank" rel="nofollow">Japan</a></td></tr>
+              <tr><td style="text-align: center; font-weight: bold"><a href="/Japan" style="text-decoration: none" class="clock24" id="tz24-1588878625-cc13821-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVkMjFkNmI2OSJ9" title="timezone - Tokyo" target="_blank" rel="nofollow">Япония</a></td></tr>
           </table>
 <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
 
 
    <table>
               <tr><td style="text-align: center;"><canvas id="canvas_tt5eb45d501a460" width="125" height="125"></canvas></td></tr>
-              <tr><td style="text-align: center; font-weight: bold"><a href="/Italy" style="text-decoration: none" class="clock24" id="tz24-1588878672-cc13441-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVkNTAxYTQ2MCJ9" title="Rome time zone" target="_blank" rel="nofollow">Italy</a></td></tr>
+              <tr><td style="text-align: center; font-weight: bold"><a href="/Italy" style="text-decoration: none" class="clock24" id="tz24-1588878672-cc13441-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVkNTAxYTQ2MCJ9" title="Rome time zone" target="_blank" rel="nofollow">Италия</a></td></tr>
           </table>
 <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
 
 
      <table>
               <tr><td style="text-align: center;"><canvas id="canvas_tt5eb45d6b8423c" width="125" height="125"></canvas></td></tr>
-              <tr><td style="text-align: center; font-weight: bold"><a href="/Germany" style="text-decoration: none" class="clock24" id="tz24-1588878699-cc12515-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVkNmI4NDIzYyJ9" title="local time in Berlin" target="_blank" rel="nofollow">Germany</a></td></tr>
+              <tr><td style="text-align: center; font-weight: bold"><a href="/Germany" style="text-decoration: none" class="clock24" id="tz24-1588878699-cc12515-eyJzaXplIjoiMTI1IiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWViNDVkNmI4NDIzYyJ9" title="local time in Berlin" target="_blank" rel="nofollow">Германия</a></td></tr>
           </table>
 <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
 </div>
@@ -96,6 +96,7 @@
     <div class="card-body">
       <h4 class="card-title">{{$product->name}}</h4>
       <p class="card-text">{{$product->discription}}</p> 
+      <h5>{{product->price}}</h5>
     </div>
     <div class="card-body">
       <a href="{{route('cart.add', $product->id)}}" class="card-link">Add to cart</a>   
