@@ -85,6 +85,55 @@
 </div>
 
 
+<h2>Products</h2>
+
+<div class="row">
+  @foreach($allProducts as $product)
+  <div class="col-3">
+  <div class="card">
+    <img src="" class="card-img-top">
+    <div class="card-body">
+      <h4 class="card-title">{{$product->name}}</h4>
+      <p class="card-text">{{$product->discription}}</p> 
+    </div>
+    <div class="card-body">
+      <a href="{{route('cart.add', $product->id)}" class="card-link">Add to cart</a>   
+    </div>
+  </div>
+  </div>
+
+  @endforeach
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- // content  -->
 <br>
 <h2 class="collection-title home-title page-title"><span>Хиты продаж</span></h2>

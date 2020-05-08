@@ -6,9 +6,7 @@ use App\Http\Middleware\AuthorMiddleware;
 
 
 
-Route::get('/', function () {
-    return view('home');
-});
+
 
 Auth::routes();
 
@@ -86,3 +84,9 @@ Route::get('/Italy', function () {
 Route::get('/Germany', function () {
     return view('Country.Germany');
 });
+
+
+Route::redirect('/', '/home');
+
+
+Route::get('/add-to-cart/{product}', 'CartController@add' )->name('cart.add');
