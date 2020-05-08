@@ -92,7 +92,7 @@
   <div class="col-3">
   <div class="card">
 
-  <img src='https://time4u.kz/upload/resize_cache/iblock/f95/265_265_1/f957c265f9e1dcac8ec4938706d72909.jpg' class='card-img-top' style="width: 265px; height: 265px;" >
+  <img src='https://time4u.kz/upload/resize_cache/iblock/f95/265_265_1/f957c265f9e1dcac8ec4938706d72909.jpg' class='card-img-top'  >
     <div class="card-body">
       <h4 class="card-title">{{$product->name}}</h4>
       <p class="card-text">{{$product->discription}}</p> 
