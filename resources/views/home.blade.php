@@ -96,7 +96,7 @@
     <div class="card-body">
       <h4 class="card-title">{{$product->name}}</h4>
       <p class="card-text">{{$product->discription}}</p> 
-      <h5>{{product->price}}</h5>
+      <h5>{{$product->price}}</h5>
     </div>
     <div class="card-body">
       <a href="{{route('cart.add', $product->id)}}" class="card-link">Add to cart</a>   
