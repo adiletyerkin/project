@@ -24,7 +24,7 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+        return view('product.create');
     }
 
     /**
@@ -35,7 +35,20 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request,[
+        'name'=>'required',
+        'discription'=>'required',
+        'price'=>'required',
+        'image'=>'required']);
+
+        $product = new Product([
+            'name'=>$request->get('name'),
+            'discription'=>$request->get('discription'),
+            'price'=>$request->get('price'),
+            'image'=>$request->get('image'),
+        ]);
+        $product->save();
+        return redirect()->route('product.create')->with('success','Data Added');
     }
 
     /**
@@ -82,4 +95,9 @@ class ProductController extends Controller
     {
         //
     }
+
+    public function allData(){
+        
+        
+}
 }

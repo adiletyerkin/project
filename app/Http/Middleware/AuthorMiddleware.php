@@ -15,10 +15,10 @@ class AuthorMiddleware
      */
     public function handle($request, Closure $next)
     {
-        if(Auth::check() && Auth::user()->role->if==2){
+        if ($request->user() && $request->user()->role_id != '2')
+        {
+            return redirect('home');
+        }
         return $next($request);
     }
-    else{
-        return redirect()->route('login');
-    }
-    }
+}

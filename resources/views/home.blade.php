@@ -86,13 +86,13 @@
 
 
 <h2>Products</h2>
-
+ <a class="p-2 text-dark" href="/product/create">Добавить продукт</a>
 <div class="row">
   @foreach($allProducts as $product)
   <div class="col-3">
   <div class="card"style="height: 520px; margin-bottom: 10px;">
 
-  <img src='https://time4u.kz/upload/resize_cache/iblock/f95/265_265_1/f957c265f9e1dcac8ec4938706d72909.jpg' class='card-img-top'  >
+  <img src='images/{{$product->image}}' class='card-img-top'  >
     <div class="card-body">
       <h4 class="card-title">{{$product->name}}</h4>
       <p class="card-text">{{$product->discription}}</p> 

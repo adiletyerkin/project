@@ -36,22 +36,6 @@ Route::post('/update/{id}', 'HomeController@update' )->name('update');
 Route::get('/delete/{id}','HomeController@delete' )->name('delete');
 
 
-Route:: group(['as'=>'admin.', 'prefix'=>'admin', 'namespace' => 'Admin',
-'middleware' => ['auth', 'admin']
-], function(){
-
-	Route::get('dashboard', 'DashboardController@index')->name('dashboard');
-
-});
-
-
-
-Route:: group([ 'as'=>'author.', 'prefix'=>'author', 'namespace' => 'Author',
-'middleware' => ['auth', 'author']
-], function(){
-
-	Route::get('dashboard', 'DashboardController@index')->name('dashboard');
-});
 
 
 Route::get('/change-password','Auth\ChangePasswordController@index')->name('password.change');
@@ -62,6 +46,11 @@ Route::post('/change-password','Auth\ChangePasswordController@store')->name('cha
 Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()
     {
         Route::match(['get', 'post'], 'listofusers', 'HomeController@allData');
+        
+    });
+Route::group(['middleware' => 'App\Http\Middleware\AuthorMiddleware'], function()
+    {
+        Route::resource('product', 'ProductController' );
         
     });
 
