@@ -92,14 +92,17 @@
   <div class="col-3">
   <div class="card"style="height: 520px; margin-bottom: 10px;">
 
-  <img src='images/{{$product->image}}' class='card-img-top'  >
+  <img src='{{$product->image}}' class='card-img-top'  style="margin: auto; width: 150px;height: 250px;">
+
     <div class="card-body">
       <h4 class="card-title">{{$product->name}}</h4>
+      <hr>
       <p class="card-text">{{$product->discription}}</p> 
       <h5>{{$product->price}} тг</h5>
     </div>
     <div class="card-body">
       <div class="text-center">
+        <hr>
       <a href="{{route('cart.add', $product->id)}}" class="card-link">Add to cart</a>   
       </div>
     </div>

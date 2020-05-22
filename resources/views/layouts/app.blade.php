@@ -72,7 +72,7 @@ new Darkmode().showWidget();
                         @else
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('cart.index') }}">
-                                      <i class="fas fa-cart-plus"></i>
+                                      
                                     Cart
                                     <div class="badge badge-danger">
                                         {{Cart::session(auth()->id())->getContent()->count()}}

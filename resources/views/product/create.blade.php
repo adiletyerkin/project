@@ -53,16 +53,13 @@
       <input type="text" class="form-control" name="price" id="price" placeholder="" style="width: 40%">
     </div>
   </div>
-
-  <div class="form-group">
-    <label for="name" class="col-sm-3 control-label">Фото</label>
-    <div class="col-sm-3">
-      <label class="control-label small" for="file_img">Картинка (jpg/png):</label> <input type="file" name="image">
+<div class="form-group">
+    <label for="price" class="col-sm-3 control-label">Фото(url)</label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" name="image" id="price" placeholder="" style="width: 70%">
     </div>
-
-  </div> <!-- form-group // -->
-
-  <hr>
+  </div>
+   <hr>
   <div class="form-group">
     <div class="col-sm-offset-3 col-sm-9">
       <button type="submit" class="btn btn-primary">Отправить</button>
