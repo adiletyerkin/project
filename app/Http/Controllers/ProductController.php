@@ -27,6 +27,11 @@ class ProductController extends Controller
         return view('product.create');
     }
 
+    public function change()
+    {
+        return view('product.change');
+    }
+
     /**
      * Store a newly created resource in storage.
      *
@@ -80,10 +85,24 @@ class ProductController extends Controller
      * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Product $product)
+    public function update(Request $req, $id)
     {
-        //
+
+           $product =  Product::find($id);
+
+            $product -> name = $req->input('name');
+            // $registration -> surname = $req->input('surname');
+            $product -> discription = $req->input('discription');
+            $product -> price = $req->input('price');
+            $product -> image = $req->input('image');
+
+
+            $product -> save();
+
+           return redirect()-> route('home')->with('success', 'ОБНОВЛЕНИЕ прошло успешно ');
+     
     }
+    
 
     /**
      * Remove the specified resource from storage.
@@ -92,8 +111,10 @@ class ProductController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function destroy(Product $product)
+
     {
-        //
+        Product::find($id)->delete();
+        return redirect( route( 'home')) -> with('success', 'Продукт был успешно удален!');
     }
 
     public function allData(){

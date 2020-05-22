@@ -24,7 +24,9 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-
+Route::get('/change', function () {
+    return view('change');
+});
 
 // Route::get('/listofusers', 'HomeController@allData' )->name('listofusers');
 
@@ -48,6 +50,7 @@ Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()
         Route::match(['get', 'post'], 'listofusers', 'HomeController@allData');
         
     });
+
 Route::group(['middleware' => 'App\Http\Middleware\AuthorMiddleware'], function()
     {
         Route::resource('product', 'ProductController' );

@@ -15,7 +15,7 @@
   
   <section class="panel panel-default">
 <div class="panel-heading"> 
-<h3 class="panel-title">Add Product</h3> 
+<h3 class="panel-title">Добавить Продукт</h3> 
 </div> 
 @if(count($errors)>0)
 <div class="alert alert-danger">

@@ -85,8 +85,11 @@
 </div>
 
 
-<h2>Products</h2>
+<h2>Продукты</h2>
+<div class="row">
  <a class="p-2 text-dark" href="/product/create">Добавить продукт</a>
+  <a class="p-2 text-dark" href="/product/change">Изменить продукт</a>
+  </div>
 <div class="row">
   @foreach($allProducts as $product)
   <div class="col-3">
