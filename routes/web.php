@@ -24,8 +24,8 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/change', function () {
-    return view('change');
+Route::get('/product/change', function () {
+    return view('product/change');
 });
 
 // Route::get('/listofusers', 'HomeController@allData' )->name('listofusers');
@@ -38,6 +38,11 @@ Route::post('/update/{id}', 'HomeController@update' )->name('update');
 Route::get('/delete/{id}','HomeController@delete' )->name('delete');
 
 
+
+
+Route::post('/updatePr/{id}', 'ProductController@update' )->name('updatePr');
+
+Route::get('/deletePr/{id}','ProductController@destroy' )->name('deletePr');
 
 
 Route::get('/change-password','Auth\ChangePasswordController@index')->name('password.change');

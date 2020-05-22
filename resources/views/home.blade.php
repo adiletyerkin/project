@@ -88,19 +88,19 @@
 <h2>Продукты</h2>
 <div class="row">
  <a class="p-2 text-dark" href="/product/create">Добавить продукт</a>
-  <a class="p-2 text-dark" href="/product/change">Изменить продукт</a>
+  <!-- <a class="p-2 text-dark" href="/product/change">Изменить продукт</a> -->
   </div>
 <div class="row">
   @foreach($allProducts as $product)
   <div class="col-3">
-  <div class="card"style="height: 520px; margin-bottom: 10px;">
+  <div class="card"style="height: 520px; margin-bottom: 10px; width: 250px;">
 
   <img src='{{$product->image}}' class='card-img-top'  style="margin: auto; width: 150px;height: 250px;">
 
     <div class="card-body">
       <h4 class="card-title">{{$product->name}}</h4>
       <hr>
-      <p class="card-text">{{$product->discription}}</p> 
+      <p class="card-text">{{$product->discription}}</p>  
       <h5>{{$product->price}} тг</h5>
     </div>
     <div class="card-body">
@@ -158,8 +158,8 @@
       <p class="card-text">54 000 тг.</p>
     </div>
     <div class="card-footer">
-      <a href="#" class="btn btn-primary">More</a>
-       <a href="#" class="btn btn-primary" style="margin-left: 180px">BUY</a>
+ <!--      <a href="#" class="btn btn-primary">More</a> -->
+       <a href="{{route('cart.add', $product->id)}}" class="btn btn-primary" style="margin-left: 180px">BUY</a>
     </div>
   </div>
   <div class="card">
@@ -169,8 +169,8 @@
       <p class="card-text">77 500 тг.</p>
     </div>
     <div class="card-footer">
-      <a href="#" class="btn btn-primary">More</a>
-      <a href="#" class="btn btn-primary" style="margin-left: 180px">BUY</a>
+   <!--    <a href="#" class="btn btn-primary">More</a> -->
+      <a href="{{route('cart.add', $product->id)}}" class="btn btn-primary" style="margin-left: 180px">BUY</a>
     </div>
   </div>
   <div class="card">
@@ -180,8 +180,8 @@
       <p class="card-text">77 800 тг.</p>
     </div>
     <div class="card-footer">
-        <a href="#" class="btn btn-primary">More</a>
-        <a href="#" class="btn btn-primary" style="margin-left: 180px">BUY</a>
+       <!--  <a href="#" class="btn btn-primary">More</a> -->
+        <a href="{{route('cart.add', $product->id)}}" class="btn btn-primary" style="margin-left: 180px">BUY</a>
     </div>
   </div>
 </div>
@@ -197,8 +197,8 @@
       <p class="card-text">54 000 тг.</p>
     </div>
     <div class="card-footer">
-      <a href="#" class="btn btn-primary">More</a>
-       <a href="#" class="btn btn-primary" style="margin-left: 180px">BUY</a>
+   <!--    <a href="#" class="btn btn-primary">More</a> -->
+       <a href="{{route('cart.add', $product->id)}}" class="btn btn-primary" style="margin-left: 180px">BUY</a>
     </div>
   </div>
   <div class="card">
@@ -209,7 +209,7 @@
     </div>
     <div class="card-footer">
       <a href="#" class="btn btn-primary">More</a>
-      <a href="#" class="btn btn-primary" style="margin-left: 180px">BUY</a>
+      <a href="{{route('cart.add', $product->id)}}" class="btn btn-primary" style="margin-left: 180px">BUY</a>
     </div>
   </div>
   <div class="card">
@@ -219,8 +219,8 @@
       <p class="card-text">77 800 тг.</p>
     </div>
     <div class="card-footer">
-        <a href="#" class="btn btn-primary">More</a>
-        <a href="#" class="btn btn-primary" style="margin-left: 180px">BUY</a>
+     <!--    <a href="#" class="btn btn-primary">More</a> -->
+        <a href="{{route('cart.add', $product->id)}}" class="btn btn-primary" style="margin-left: 180px">BUY</a>
     </div>
   </div>
 </div>
